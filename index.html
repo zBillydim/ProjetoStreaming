@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto Streaming</title>
+</head>
+<body>
+  <header>
+    <img src="imagens/logo.png" alt="Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html">Contato</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="carousel">
+        <img src="imagens/banner1.jpeg" alt="Banner 1">
+        <img src="imagens/banner2.jpeg" alt="Banner 2">
+        <img src="imagens/banner3.webp" alt="Banner 3">
+        <img src="imagens/banner4.jpg" alt="Banner 4">
+      </div>
+    </section>
+
+    <section class="intro" id="home">
+      <h1>Bem-vindo projeto streaming</h1>
+      <p>Assista às suas séries e filmes favoritos a qualquer hora, em qualquer lugar.</p>
+    </section>
+
+
+    <section class="content-sections">
+      <div class="section" id="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma plataforma dedicada a trazer os melhores conteúdos de entretenimento para você.</p>
+      </div>
+
+      <div class="section">
+        <h2>Depoimentos</h2>
+        <p>"A melhor plataforma de streaming que já usei!" - Cleitinho32</p>
+      </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+      <h2>Contato</h2>
+      <form action="contato.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Projeto streaming</p>
+    <div class="social-links">
+      <a target="_blank" href="https://www.facebook.com/">Facebook</a>
+      <a target="_blank" href="https://www.x.com/">X</a>
+      <a target="_blank" href="https://www.instagram.com/">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
